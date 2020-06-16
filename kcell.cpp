@@ -6,7 +6,7 @@ long double K(long double k){
     
     for (;t<1;t = t + micro){
         K = K + (1 / sqrt((1 - (t*t))*(1 - (k*k)*(t*t))))*micro;
-        //K = K + (t*t*t*t*t)*micro ;
+        
         
     }
     
