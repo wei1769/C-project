@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 long double K(long double k){
-    long double micro = 0.000000001 , K = 0 , t =0 ;
+    long double micro = 0.0000000001 , K = 0 , t =0 ;
     
     for (;t<1;t = t + micro){
         K = K + (1 / sqrt((1 - (t*t))*(1 - (k*k)*(t*t))))*micro;
